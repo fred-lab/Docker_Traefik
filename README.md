@@ -35,7 +35,7 @@ You should use this labels for each services you want to connect with Traefik
 
 - **traefik.docker.network=proxy** : (optionnal) If you want to use Traefik in a specified network (unless of network_mode: host) use this label. The name of the network must be the same you have in your Traefik's docker-compose.yml
 
-####Example with an Nginx container, with the minimum configuration :
+##Example with an Nginx container, with the minimum configuration :
 
 ```services:
    
